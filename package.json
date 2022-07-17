@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "mirage",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhirup27/Mirage.git"
+  },
+  "author": "Abhirup Bhattacharyya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhirup27/Mirage/issues"
+  },
+  "homepage": "https://github.com/Abhirup27/Mirage#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dependencies": "^0.0.1",
+    "express": "^4.17.3",
+    "formidable": "^2.0.1",
+    "jsdom": "^19.0.0",
+    "mariadb": "^3.0.0",
+    "multer": "^1.4.4-lts.1",
+    "mv": "^2.1.1",
+    "nodemailer": "^6.7.5"
+  },
+  "description": ""
+}

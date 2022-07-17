@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Hosting Site</title>
+    <link rel="stylesheet" href="/register.css">
+    <script src="https://kit.fontawesome.com/52b6181cb6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen">
+        <div class="screen__content">
+    <form action="/Register-Submit" method="post" id='fo1' class="register">
+        <div class="register__field">
+        <i class="register__icon fa-solid fa-user"></i>
+        <input type="text" name="USERNAME" name="userN" id="userN" value="" placeholder="user name" class="register__input" >
+        <p id="messageUserName"></p>
+      </div>
+        <div class="register__field">
+          <i class="register__icon fa-solid fa-lock" ></i>
+          <input type="password" name="passwd" name="passwd" class="register__input" id="passwd" value="" placeholder="password" >
+          <button type="button" name="button" onclick="myFunction()" class="button register__submit" style="width:20%; display:inline"><span class="button__text">&#128065;</span></button>
+          <p id="messagePasswd"></p>
+        </div>
+        <div class="register__field">
+            <i class="register__icon fa-solid fa-envelope"></i>
+            <input type="email" name="Email" name="Email" class="register__input" id="Email" value="" placeholder="E-mail">
+            <p id="messageEmail"></p>
+          </div>
+          <button type="button" name="Register-Submit" class="button register__submit" id="RegisterSubmit">
+            <span class="button__text">Register Now</span>
+                <i class="button__icon fa-solid fa-chevron-right"></i>
+
+          </button>
+
+    </form>
+  </div>
+  <div class="screen__background">
+    <span class="screen__background__shape screen__background__shape4"></span>
+    <span class="screen__background__shape screen__background__shape3"></span>
+    <span class="screen__background__shape screen__background__shape2"></span>
+    <span class="screen__background__shape screen__background__shape1"></span>
+  </div>
+  </div>
+    </div>
+    <script src="register.js"></script>
+  </body>
+</html>
+
+
+  <label for="userN">Username:</label>
+<label for="passwd">password:</label>
+
+<input type="button" name="Register-Submit" id="RegisterSubmit" style="display: block;" value="Register">
